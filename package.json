@@ -2,19 +2,21 @@
   "name": "breaks",
   "main": "./index.js",
   "version": "1.0.0",
-  "description": "A plugin for breaks support, without needing spaces",
+  "description": "A plugin for breaks support, without needing spaces for Inkdrop",
   "keywords": [],
   "repository": "https://github.com/inkdropapp/inkdrop-breaks",
   "license": "MIT",
   "scripts": {},
   "engines": {
-    "inkdrop": "^3.18.0"
+    "inkdrop": "^4.x"
   },
   "dependencies": {
-    "remark-breaks": "^1.0.0"
+    "remark-breaks": "^1.0.2"
   },
   "devDependencies": {
-    "eslint": "^4.17.0",
-    "prettier": "^1.10.2"
+    "eslint": "^5.15.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4"
   }
 }
