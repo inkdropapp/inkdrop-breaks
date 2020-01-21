@@ -2,7 +2,7 @@
   "name": "breaks",
   "main": "./index.js",
   "version": "2.0.0",
-  "description": "A plugin for breaks support, without needing spaces for Inkdrop",
+  "description": "Adds breaks support, without needing spaces",
   "keywords": [],
   "repository": "https://github.com/inkdropapp/inkdrop-breaks",
   "license": "MIT",
