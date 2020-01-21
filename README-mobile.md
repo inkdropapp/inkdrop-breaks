@@ -9,14 +9,14 @@ This is a
 paragraph.
 ```
 
-With this plugin, it yields:
+With `breaks` enabled, it yields:
 
 ```
 <p>This is a<br>
 paragraph.</p>
 ```
 
-Without `breaks` plugin, you'd get:
+Without `breaks` enabled, you'd get:
 
 ```
 <p>This is a
