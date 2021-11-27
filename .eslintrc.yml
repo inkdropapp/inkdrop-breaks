@@ -1,16 +1,8 @@
 root: true
-plugins:
-  - prettier
 extends:
-  - plugin:prettier/recommended
+  - prettier
 env:
   es6: true
 globals: {}
 rules:
   no-useless-escape: 0
-  prettier/prettier:
-    - 2
-    -
-      trailingComma: none
-      singleQuote: true
-      semi: false
