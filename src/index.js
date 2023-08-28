@@ -1,5 +1,5 @@
-const { markdownRenderer } = require('inkdrop')
-const breaks = require('remark-breaks')
+import { markdownRenderer } from 'inkdrop'
+import breaks from 'remark-breaks'
 
 module.exports = {
   activate() {

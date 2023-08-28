@@ -3,6 +3,10 @@ Breaks support, without needing spaces, for Inkdrop.
 
 ## Install
 
+Check out [the docs](https://docs.inkdrop.app/manual/extend-inkdrop-with-plugins) on how to install plugins.
+
+### Command-line
+
 ```sh
 ipm install breaks
 ```

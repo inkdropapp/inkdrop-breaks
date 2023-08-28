@@ -1,21 +1,27 @@
 {
   "name": "breaks",
-  "main": "./index.js",
+  "main": "./lib/index.js",
   "version": "2.0.0",
   "description": "Adds breaks support, without needing spaces",
   "keywords": [],
   "repository": "https://github.com/inkdropapp/inkdrop-breaks",
   "license": "MIT",
-  "scripts": {},
-  "engines": {
-    "inkdrop": "^5.x"
+  "scripts": {
+    "lint": "eslint .",
+    "build": "rm -rf lib && rollup -c --bundleConfigAsCjs",
+    "watch": "rollup -c --watch --bundleConfigAsCjs"
   },
-  "dependencies": {
-    "remark-breaks": "^1.0.3"
+  "engines": {
+    "inkdrop": ">=5.6.0 <7.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.3.0",
-    "eslint-config-prettier": "^8.3.0",
-    "prettier": "^2.5.0"
+    "@babel/core": "^7.22.11",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.2",
+    "remark-breaks": "^3.0.3",
+    "rollup": "^3.28.1"
   }
 }
