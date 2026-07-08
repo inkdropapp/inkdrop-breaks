@@ -22,4 +22,3 @@ Without `breaks` enabled, you'd get:
 <p>This is a
 paragraph.</p>
 ```
-

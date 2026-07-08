@@ -1,4 +1,5 @@
 # inkdrop-breaks
+
 Breaks support, without needing spaces, for Inkdrop.
 
 ## Install
@@ -33,4 +34,3 @@ Without `breaks` plugin, you'd get:
 <p>This is a
 paragraph.</p>
 ```
-
