@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This repository has moved to [inkdropapp/plugins](https://github.com/inkdropapp/plugins): [`packages/breaks`](https://github.com/inkdropapp/plugins/tree/main/packages/breaks). It is archived and read-only; please open issues and pull requests there.
+
 # inkdrop-breaks
 
 Breaks support, without needing spaces, for Inkdrop.
